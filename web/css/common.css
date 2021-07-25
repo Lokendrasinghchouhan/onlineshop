@@ -1,0 +1,86 @@
+    #footer{
+    min-hight: 200px!important;
+    background-color: #3399ff;
+    margin-top: 70vh;
+}
+.signup .row{
+    margin-top: 10px!important;
+    border-bottom: thin solid #3399ff!important;
+    padding: 10px;
+}
+.signup>h1{
+    text-align:center;
+    color: #3399ff;
+
+} 
+.signup label{
+    color: #3399ff;
+}
+
+/*----------------------------------index.jsp
+
+/*----------------------------------products*/
+section{
+    border-bottom: thick solid cornflowerblue;
+}
+.products{
+    padding: 50px 0px;
+} 
+.products h1{
+    text-align:center;
+    color: #3399ff;
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding: 5px;
+}
+.product_wrapper{
+    width:100%;
+    height: 100%;
+    box-shadow:  0 10px 29px 0 rgba(68,88,144,0.1);
+    border-radius: 5px;
+    border:thin solid black;
+    text-align: center;
+    padding: 5px;
+    transition: .5s;
+}
+.product_wrapper:hover{
+   /* transform: translateY(10px);*/
+    
+}
+.product_wrapper:hover .action_wrapper{
+    left: 40px;
+}
+
+.action_wrapper{
+    position: absolute;
+    bottom:5px;  
+
+}
+
+.pimg{
+    width:100%;
+    height: 50%
+}
+.banner-section .row .col-sm-12{
+    height:5ovh;
+
+}
+banner-section .row .col-sm-12 img{
+    width:100vh;
+    height:100%
+}
+
+/*------------------sticky itemlist-----------------------*/
+.stickyItemlist{
+  position: fixed;
+bottom:20px;
+background-color: black;
+color:white;
+width:100px;
+right:0px;
+border-radius:100px 0px 0px 100px;
+padding:5px;
+padding-left: 20px;
+font-size: 20px;
+
+}

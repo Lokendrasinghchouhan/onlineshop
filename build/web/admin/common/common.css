@@ -1,0 +1,24 @@
+.sidebar-col{
+    background-color: #3399ff;
+    color: white;
+    font-size: 20px;
+    min-height: 100vh;
+    padding: 0px!important;
+    
+}
+.sidebar-col a{
+    text-decoration: none;
+   color: white;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    transition: 1s;
+    padding: 5px;
+     
+}
+.sidebar-col a:hover{
+    background-color: black;
+}
+.main-col{
+    margin-bottom: 50px;
+}
